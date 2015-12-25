@@ -1,4 +1,4 @@
-Title: 为setup.py添加c/c++ 头文件或者库的搜索路径
+Title: 为setup.py添加c/c++头文件或者库的搜索路径
 Date: 2015-01-09
 Tags: Python, setup.py, 头文件, include
 Category: python库
