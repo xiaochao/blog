@@ -57,6 +57,7 @@ session的表名为django_session,三个字段分别是sessin的key,value以及�
                 			break
         			return session_key```
         	这边有个问题，但用户量上百万时，这个生成算法随机重复的概率还是挺高的，所以这地方可以根据自己的需求做适当的优化
+        	
         - 第二步：保存session到数据库
         - 第三步：初始化session为空
 2. session的操作
