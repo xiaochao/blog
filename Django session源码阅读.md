@@ -5,8 +5,8 @@ Category: python库
 Slug: 
 Author: 笨熊
 ## 背景
-    最近在做djnago开发时，遇到一个session问题，过程如下，第一个POST请求时，把数据存放在session，在第二次POST时，从session中读取数据，完成用户注册。在实际的环境中，发现有时第二次获取到的数据为空。初步的猜想是第一次和第二次请求间隔太短，数据还没有存进mysql，到时读取失败，带着这样的疑问，阅读了django session的源码。
-    django session源码非常简单，没有复杂的数据结构和算法，读起来没费什么劲。
+* 最近在做djnago开发时，遇到一个session问题，过程如下，第一个POST请求时，把数据存放在session，在第二次POST时，从session中读取数据，完成用户注册。在实际的环境中，发现有时第二次获取到的数据为空。初步的猜想是第一次和第二次请求间隔太短，数据还没有存进mysql，到时读取失败，带着这样的疑问，阅读了django session的源码。
+* django session源码非常简单，没有复杂的数据结构和算法，读起来没费什么劲。
 
 ## session总体结构
 session目录结构如下图
@@ -50,11 +50,11 @@ session的表名为django_session,三个字段分别是sessin的key,value以及�
 		- 第一步，生成sessin_key,生成算法如下：
 		
 				def _get_new_session_key(self):	
-        		while True:
-            		session_key = get_random_string(32, VALID_KEY_CHARS)
-            		if not self.exists(session_key):
-                		break
-        		return session_key```
+        		    while True:
+            		    session_key = get_random_string(32, VALID_KEY_CHARS)
+            			if not self.exists(session_key):
+                			break
+        			return session_key```
         	这边有个问题，但用户量上百万时，这个生成算法随机重复的概率还是挺高的，所以这地方可以根据自己的需求做适当的优化
         - 第二步：保存session到数据库
         - 第三步：初始化session为空
@@ -69,6 +69,7 @@ session的表名为django_session,三个字段分别是sessin的key,value以及�
 		
 ### sesssion加密过程
 session加密只是对session value值进行加密，加密的步骤为
+
 1. 序列化session value
 2. 设置加密salt为django.contrib.session+当前类名
 3. 使用django.utils.crypto.salted_hmac进行加密
