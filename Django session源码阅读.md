@@ -47,6 +47,7 @@ session的表名为django_session,三个字段分别是sessin的key,value以及�
 	* 根据cookie中的内容初始化session_key，session的两个标志位access和modify为false
 	* 初始化session为python dcit，如果已经初始化了，则直接返回该session，如果session_key为None，或者设置no_load标志为True，则直接返回个空dict，如果session_key不为None并且设置no_load标志为False，则load数据
 	* 如果本地数据库已经存在该session，则导入到内存，如果不存在，则创建session
+	
 		- 第一步，生成sessin_key,生成算法如下：
 		
 				def _get_new_session_key(self):	
