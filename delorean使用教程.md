@@ -2,7 +2,7 @@ Title: delorean使用教程
 Date: 2015-09-22
 Tags: Python, 时间库, Time, python时间计算
 Category: python库
-Slug: 
+Slug: delorean
 Author: 笨熊
 
 ##首先，约定三个概念。
