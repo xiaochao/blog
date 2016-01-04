@@ -5,14 +5,14 @@ Category: python库
 Slug: cities
 Author: 笨熊
 
-##数据来源
+###数据来源
 
-###在此感谢鹅厂，所有的数据都是从鹅厂注册页面获取到的
+####在此感谢鹅厂，所有的数据都是从鹅厂注册页面获取到的
 
-### [github](https://github.com/xiaochao/tools)
-### [演示地址](http://tools.bugcode.cn)
-### ![截图](http://7xlrq6.com1.z0.glb.clouddn.com/tools.png?attname=&e=1442249233&token=ylQC8EgbJjYVLBChocIRmkrAfslPi9tuwDU33kSF:4sBjITG6j1w8Z9jtlRvSdBB1KLg)
-### 使用方法：
+#### [github](https://github.com/xiaochao/tools)
+#### [演示地址](http://tools.bugcode.cn)
+#### ![截图](http://7xlrq6.com1.z0.glb.clouddn.com/tools.png?attname=&e=1442249233&token=ylQC8EgbJjYVLBChocIRmkrAfslPi9tuwDU33kSF:4sBjITG6j1w8Z9jtlRvSdBB1KLg)
+#### 使用方法：
 
 * 输入国家名称，获取到国家ID
 * 输入省，获取到国家和省ID
