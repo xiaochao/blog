@@ -5,10 +5,6 @@ Category: python库
 Slug: cities
 Author: 笨熊
 
-# cities
-
-# 国内所有省、市以及对应的id，以及世界上主要的城市
-
 ##数据来源
 
 ###在此感谢鹅厂，所有的数据都是从鹅厂注册页面获取到的
