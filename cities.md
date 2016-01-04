@@ -6,15 +6,18 @@ Slug: cities
 Author: 笨熊
 
 # cities
+
 # 国内所有省、市以及对应的id，以及世界上主要的城市
 
 ##数据来源
+
 ###在此感谢鹅厂，所有的数据都是从鹅厂注册页面获取到的
 
 ### [github](https://github.com/xiaochao/tools)
 ### [演示地址](http://tools.bugcode.cn)
 ### ![截图](http://7xlrq6.com1.z0.glb.clouddn.com/tools.png?attname=&e=1442249233&token=ylQC8EgbJjYVLBChocIRmkrAfslPi9tuwDU33kSF:4sBjITG6j1w8Z9jtlRvSdBB1KLg)
 ### 使用方法：
+
 * 输入国家名称，获取到国家ID
 * 输入省，获取到国家和省ID
 * 输入城市，获取到国家、省和市ID
