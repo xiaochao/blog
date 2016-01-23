@@ -1,0 +1,10 @@
+# Nmap 6.47 scan initiated Mon Jan  4 22:37:45 2016 as: nmap -sT -p 22 -oG – 10.10.10.*
+Host: 10.10.10.1 (XiaoQiang)	Status: Up
+Host: 10.10.10.1 (XiaoQiang)	Ports: 22/closed/tcp//ssh///
+Host: 10.10.10.93 ()	Status: Up
+Host: 10.10.10.93 ()	Ports: 22/open/tcp//ssh///
+Host: 10.10.10.230 ()	Status: Up
+Host: 10.10.10.230 ()	Ports: 22/open/tcp//ssh///
+Host: 10.10.10.234 ()	Status: Up
+Host: 10.10.10.234 ()	Ports: 22/open/tcp//ssh///
+# Nmap done at Mon Jan  4 22:37:48 2016 -- 256 IP addresses (4 hosts up) scanned in 3.02 seconds
